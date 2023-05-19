@@ -1,0 +1,120 @@
+body {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #66BB6A;     
+    }
+
+  
+  
+  
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff; /* Set the color to white */
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff; /* Set the background color to white on hover */
+    color: #66BB6A; /* Set the text color to green on hover */
+  }
+  
+  /* Rest of your CSS styles */
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h1, h2, h3 {
+    color: #f0efef;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+#video {
+    margin-bottom: 40px;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .video-container a:hover {
+    background-color: #555;
+  }
+  
+  .video-container a:visited {
+    color: #fff;
+  }
+  
+  .video-container a:focus,
+  .video-container a:active {
+    outline: none;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

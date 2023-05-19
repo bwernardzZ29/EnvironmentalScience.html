@@ -1,0 +1,72 @@
+
+body {
+  background-image: url('earth-day-icegif-7.gif');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.article {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.article h2 {
+  color: #333333;
+}
+
+.article p {
+  color: #333333;
+}
+
+.article a {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.article a:hover {
+  background-color: #555555;
+}
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+  }
+  
+  .back-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button a:hover {
+    background-color: #555555;
+  }
+  .small-image {
+    width: 100px; /* Set the width to auto to maintain aspect ratio */
+    height: 10px; /* Adjust the height value as needed */
+  }
+  
